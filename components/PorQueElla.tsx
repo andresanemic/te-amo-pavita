@@ -12,8 +12,8 @@ const CARDS = [
     bg:     'bg-magenta/5',
     iconC:  'text-magenta',
     rotate: '-rotate-1',
-    title:  'Me hace querer ser mejor',
-    text:   'Desde que la conozco quiero llegar más lejos, esforzarme más. Ella no me lo pide — simplemente, con su ejemplo, me lo inspira.',
+    title:  'Soy tu fan #1',
+    text:   'Desde un comienzo me gustaste. La GUN y los Toros Neza nos juntaron, y tu cortavientos hizo lo demás. Ahora siempre seré tu fan.',
   },
   {
     icon: (
@@ -26,8 +26,8 @@ const CARDS = [
     bg:     'bg-cobalt/5',
     iconC:  'text-cobalt',
     rotate: 'rotate-1',
-    title:  'Hacer planes juntos es mi pasatiempo favorito',
-    text:   'Pensar en el departamento, el barrio, las rutinas. Con Pam, el futuro pasó de ser algo difuso a ser algo que quiero ya.',
+    title:  'Eres mi hogar',
+    text:   'Los recuerdos más lindos del 2026 son los días que compartimos en Neza. Vamos a estar juntos, no importa dónde.',
   },
   {
     icon: (
@@ -40,8 +40,8 @@ const CARDS = [
     bg:     'bg-teal/5',
     iconC:  'text-teal',
     rotate: '-rotate-1',
-    title:  'Me escucha de verdad',
-    text:   'No solo oye mis palabras — entiende lo que hay detrás. Hay personas que hacen que hablar sea fácil. Pam es una de ellas.',
+    title:  'Conversar es muy divertido',
+    text:   'No soy bueno chateando por internet, pero contigo es más fácil. ¡Lo que no cambia que prefiero hacerlo presencial!',
   },
   {
     icon: (
@@ -55,8 +55,8 @@ const CARDS = [
     bg:     'bg-mustard/5',
     iconC:  'text-mustard',
     rotate: 'rotate-1',
-    title:  'Me hace reír como nadie',
-    text:   'Y no con chistes ensayados. Con ella el humor es natural, inesperado y completamente nuestro.',
+    title:  'Despertar contigo me hace feliz',
+    text:   'Es difícil tener días malos si es que son a tu lado. Perdóname si ronco mucho.',
   },
   {
     icon: (
@@ -71,8 +71,8 @@ const CARDS = [
     bg:     'bg-periwinkle/5',
     iconC:  'text-periwinkle',
     rotate: '-rotate-1',
-    title:  'No le da miedo lo que viene',
-    text:   'Construir una vida en otro país no es sencillo. Pam lo sabe y aun así eligió apostar. Eso me parece de las cosas más valientes que he visto.',
+    title:  'Amo tu convicción',
+    text:   'Agradezco toda la energía que entregaste para conocernos. Me toma tiempo aprender que alguien nuevo se preocupa por mí.',
   },
   {
     icon: (
@@ -85,8 +85,8 @@ const CARDS = [
     bg:     'bg-coral/5',
     iconC:  'text-coral',
     rotate: 'rotate-1',
-    title:  'Mi vida es más bonita desde que está',
-    text:   'No exagero. Hay un antes y un después. Y el después tiene su nombre.',
+    title:  'Mi vida es más bonita contigo',
+    text:   'Hay un antes y un después. No me quiero alejar de ti, eres mi pudusita.',
   },
 ]
 
@@ -103,9 +103,9 @@ export default function PorQueElla() {
           <span className="chip bg-teal text-white border-teal mb-5">
             💚 Te amo
           </span>
-          <h2 className="h-display mb-4">Por qué Pam.</h2>
+          <h2 className="h-display mb-4">¡Hola bonita!</h2>
           <p className="t-body max-w-md mx-auto text-cobalt/60">
-            Razones que no caben en un mensaje de voz.
+            Te mando muchos apapachosnanai.
           </p>
         </div>
 
