@@ -85,7 +85,7 @@ const CARDS = [
     bg:     'bg-coral/5',
     iconC:  'text-coral',
     rotate: 'rotate-1',
-    title:  'Mi vida es más bonita contigo',
+    title:  'La vida es más bonita juntos',
     text:   'Hay un antes y un después. No me quiero alejar de ti, eres mi pudusita.',
   },
 ]
@@ -105,7 +105,7 @@ export default function PorQueElla() {
           </span>
           <h2 className="h-display mb-4">¡Hola bonita!</h2>
           <p className="t-body max-w-md mx-auto text-cobalt/60">
-            Te mando muchos apapachosnanai.
+            Te mando apapachosnanai.
           </p>
         </div>
 

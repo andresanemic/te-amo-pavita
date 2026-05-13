@@ -21,12 +21,7 @@ export default function Nosotros() {
             </h2>
 
             <p className="font-body text-body text-cream/75 mb-5 leading-relaxed">
-              Amo la forma en la que me demuestras tu amor. Eres lo más bonito
-              que me ha pasado en el último tiempo.
-            </p>
-
-            <p className="font-body text-body text-cream/60 leading-relaxed">
-              Acá siempre encontrarás nuestra música :)
+              Amo la forma en la que demuestras tu amor. Acá siempre encontrarás nuestra música :)
             </p>
           </div>
 

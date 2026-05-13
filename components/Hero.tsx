@@ -102,14 +102,14 @@ export default function Hero() {
 
           {/* Párrafo */}
           <p className="t-body max-w-lg mx-auto mb-12 text-cobalt/60">
-            Hola bonita. Eres lo más bello que me ha pasado en el último tiempo.
+            Eres lo más bello que me ha pasado en el último tiempo.
             Llenas mi vida de colores y cosas bonitas.
           </p>
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="#fotos" className="btn-primary">
-              Ver nuestras fotos
+              Ver fotos
             </a>
             <a href="#nosotros" className="btn-outline">
               Nuestra playlist

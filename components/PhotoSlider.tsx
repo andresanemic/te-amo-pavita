@@ -9,7 +9,7 @@ const PHOTOS: { src: string; caption: string }[] = [
   { src: '/images/foto-2.jpg', caption: 'La primera de muchas luchas' },
   { src: '/images/foto-3.jpg', caption: 'Mi foto favorita juntos' },
   { src: '/images/foto-4.jpg', caption: 'Me inspiré en tu playera para la web' },
-  { src: '/images/foto-5.jpg', caption: 'Sigamos conociendo el mundo!' },
+  { src: '/images/foto-5.jpg', caption: '¡Vamos a recorrer el mundo!' },
 ]
 
 // Gradientes placeholder por índice cuando no existe la imagen

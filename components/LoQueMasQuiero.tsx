@@ -41,8 +41,8 @@ export default function LoQueMasQuiero() {
         {/* Párrafo */}
         <p className="font-body text-body text-cream/75 max-w-xl mx-auto leading-relaxed mb-10">
           Desayunar juntos. Pasear a los perritos. Comer muchos tacos.
-          Viajar por el mundo. Dormir abrazados. Darte besos en la carita.
-          Amarte mucho mucho.
+          Ir a la Patagonia. Jugar con Patitas. Dormir abrazados.
+          Darte besos en la carita. Amarte mucho mucho.
         </p>
 
         {/* Badge */}
