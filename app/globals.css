@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-heading: 'Fredoka One';
+  --font-body:    'Nunito';
+}
+
+/* ── Base ─────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-cream font-body antialiased;
+  overflow-x: hidden;
+}
+
+/* ── Utilidades globales ──────────────────────────────────────── */
+@layer components {
+
+  .container-max {
+    @apply max-w-6xl mx-auto w-full px-5 md:px-10 lg:px-16;
+  }
+
+  .section-pad {
+    @apply py-section;
+  }
+
+  /* Tipografía */
+  .h-hero    { @apply font-heading text-hero    text-cobalt; }
+  .h-display { @apply font-heading text-display text-cobalt; }
+  .h-heading { @apply font-heading text-heading text-cobalt; }
+  .t-body    { @apply font-body    text-body    text-cobalt/80; }
+  .t-small   { @apply font-body    text-small   text-cobalt/60; }
+
+  /* Chips / badges estilo sticker */
+  .chip {
+    @apply inline-flex items-center gap-1.5 px-4 py-1.5
+           font-body font-700 text-small rounded-pill border-2
+           tracking-wide uppercase;
+  }
+
+  /* Botones */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-7 py-3.5
+           bg-magenta text-white font-body font-700 text-body
+           rounded-pill border-2 border-magenta
+           transition-all duration-200
+           hover:bg-coral hover:border-coral hover:-translate-y-0.5 hover:shadow-card-hover;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-7 py-3.5
+           bg-transparent text-cobalt font-body font-700 text-body
+           rounded-pill border-2 border-cobalt
+           transition-all duration-200
+           hover:bg-cobalt hover:text-cream hover:-translate-y-0.5;
+  }
+
+  /* Patrón dot-grid como background SVG */
+  .bg-dots {
+    background-image: radial-gradient(circle, #1A3EBF22 1.5px, transparent 1.5px);
+    background-size: 24px 24px;
+  }
+
+  /* Patrón de líneas diagonales */
+  .bg-diagonals {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 10px,
+      rgba(26,62,191,0.05) 10px,
+      rgba(26,62,191,0.05) 11px
+    );
+  }
+}
+
+/* Scroll margin para anclas */
+section { scroll-margin-top: 76px; }
+
+/* Font weight 700 utility (Nunito lo tiene) */
+.font-700 { font-weight: 700; }
+.font-800 { font-weight: 800; }
